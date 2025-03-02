@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/prayer_sync/static/css/main.357c3fbc.css",
+    "main.js": "/prayer_sync/static/js/main.49c0c419.js",
+    "static/js/198.1950e46e.chunk.js": "/prayer_sync/static/js/198.1950e46e.chunk.js",
+    "static/js/453.b542230d.chunk.js": "/prayer_sync/static/js/453.b542230d.chunk.js",
+    "index.html": "/prayer_sync/index.html",
+    "main.357c3fbc.css.map": "/prayer_sync/static/css/main.357c3fbc.css.map",
+    "main.49c0c419.js.map": "/prayer_sync/static/js/main.49c0c419.js.map",
+    "198.1950e46e.chunk.js.map": "/prayer_sync/static/js/198.1950e46e.chunk.js.map",
+    "453.b542230d.chunk.js.map": "/prayer_sync/static/js/453.b542230d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.357c3fbc.css",
+    "static/js/main.49c0c419.js"
+  ]
+}
