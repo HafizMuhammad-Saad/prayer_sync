@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 const ProgressTracker = () => {
   const initialPrayers = {
@@ -34,7 +34,7 @@ const ProgressTracker = () => {
     setLastUpdated("");
   };
 
-  const checkStreak = () => {
+  const checkStreak = useCallback(() => {
     const today = new Date().toDateString();
     if (lastUpdated === today) return; // Already updated today
 
@@ -45,11 +45,12 @@ const ProgressTracker = () => {
       setStreak(0);
     }
     setLastUpdated(today);
-  };
+  }, [prayers, lastUpdated]);
 
   useEffect(() => {
     checkStreak();
-  }, [checkStreak]);
+  }, [checkStreak]); 
+
 
   return (
     <div className="bg-white/10 backdrop-blur-lg p-6 rounded-lg shadow-lg">

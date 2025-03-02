@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Prayer Sync
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Prayer Sync** is a modern Islamic app that helps Muslims stay connected to their faith with essential features like accurate prayer timings, Qibla direction, weather updates, a Salah tracker, and AI-powered assistance.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+### 🕌 **Accurate Prayer Timings**
+- Get precise prayer times for any location worldwide.
+- Automatic location detection using GPS.
+- Multiple calculation methods supported (ISNA, MWL, Umm al-Qura, etc.).
 
-### `npm start`
+### 🧭 **Qibla Direction Finder**
+- Locate the Qibla direction from anywhere using a compass.
+- Uses device sensors and GPS for accurate alignment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ☁️ **Weather Information**
+- Real-time weather updates based on your location.
+- Helps you prepare for outdoor prayers or events.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📊 **Salah Tracker**
+- Log daily prayers to maintain consistency.
+- Track missed prayers and set reminders for Qada Salah.
+- Visual analytics to monitor prayer habits.
 
-### `npm test`
+### 🤖 **AI Integration**
+- Ask Islamic questions and get AI-generated answers.
+- Learn more about Salah, fasting, and Islamic teachings.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js & npm installed.
+- API keys for prayer times, weather, and AI services.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
+```sh
+# Clone the repository
+git clone https://github.com/yourusername/prayer-sync.git
+cd prayer-sync
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the App
+```sh
+npm start
+```
 
-### `npm run eject`
+## 📱 Tech Stack
+- **Frontend:** Next.js, TypeScript, Bootstrap
+- **Backend:** Supabase (Database & Authentication)
+- **APIs:** OpenAI API (AI Responses), Weather API, Prayer Times API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📌 Future Enhancements
+- **Tafsir & Hadith Integration** 📖
+- **Community Prayer Groups** 👫
+- **Multi-language Support** 🌍
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🙏 Contributing
+We welcome contributions! Feel free to open issues or submit pull requests.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
+Made with ❤️ for the Ummah.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

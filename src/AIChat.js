@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState } from "react";
 
 const AIChat = () => {
@@ -9,7 +5,7 @@ const AIChat = () => {
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = "AIzaSyCzu9x7kHoFdRPwgcaXSfOUOfAVNk7FCvU"; // 🔹 Replace with your actual API key
+  const API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
 
   const handleAskQuestion = async () => {
     if (!question) return;
@@ -59,7 +55,7 @@ const AIChat = () => {
           placeholder="Ask a question about Saum..."
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
-          className="p-3 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-teal-500"
+          className="p-3 border border-gray-600 bg-gray-800 rounded-md text-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-400"
         />
         <button
           onClick={handleAskQuestion}
@@ -88,7 +84,7 @@ const AIChat = () => {
         </button>
       </div>
       {answer && (
-        <div className="mt-4 p-4 bg-white/20 rounded-lg text-gray-200 whitespace-pre-line leading-relaxed">
+        <div className="mt-4 p-4 bg-gray-800/80 rounded-lg text-gray-100 text-lg whitespace-pre-line leading-relaxed">
           {answer}
         </div>
       )}
